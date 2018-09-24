@@ -1,3 +1,10 @@
 class Song
 
-end 
+  def initialize(name)
+    @name = name
+    @@all << @name
+  end
+
+  @@all = []
+
+end
